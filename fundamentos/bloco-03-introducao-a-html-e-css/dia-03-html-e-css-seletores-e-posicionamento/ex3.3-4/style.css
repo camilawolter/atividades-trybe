@@ -1,0 +1,49 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+/* Deixando as tags ímpares h3 com texto itálico */
+div:nth-child(odd) {
+    font-style: italic;
+}
+
+/* Para todas as divs */
+div:hover {
+    border-radius: 5px;
+    padding: 5px;
+    line-height: 5px;
+    border-style: solid;
+    transition: all 0.5s ease-out;
+}
+
+/* Colocando cores diferentes em cada tag */
+div:nth-child(3) {
+    background-color: red;
+    
+    
+}
+
+div:nth-child(4) {
+    background-color: blueviolet;
+    
+}
+
+/* Terceira div maior  */
+div:nth-child(5) {
+    background-color: yellow;
+    border-radius: 4px;
+    padding: 20px;
+    line-height: 5px;
+}
+
+div:nth-child(6) {
+    background-color: rgb(5, 3, 99);
+   
+}
+
+div:nth-child(7) {
+    background-color: rgb(147, 194, 248);
+    
+}
