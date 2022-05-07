@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    background-color: rgba(212, 238, 250, 0.89);
+}
+
+h1, p {
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 5px 10px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+li:hover {
+    background-color: rgba(150, 169, 233, 0.233);
+    border-radius: 4px;
+    padding: 20px 15px;
+    line-height: 20px;
+      
+}
+
+li:active {
+    font-family: Impact;
+    color: white;
+}
+
+ol, ul {
+    list-style: none;
+}
