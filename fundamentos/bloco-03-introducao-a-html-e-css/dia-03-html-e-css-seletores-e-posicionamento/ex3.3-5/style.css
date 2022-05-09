@@ -33,29 +33,27 @@ ol li em {
     color: blue;
 }
 
-
-
-#aliados li a:hover {
+#links li a:hover {
     font-weight:bolder;
   }
   
-#aliados li a[href*="stackoverflow"] {
+#links li a[href*="stackoverflow"] {
    color: orange;
   }
   
-  #aliados li a[href*="w3schools"] {
+#links li a[href*="w3schools"] {
     color: green;
   }
   
-#aliados li a[href*="mozilla"] {
+#links li a[href*="mozilla"] {
     color: black;
   }
   
-#aliados li a[href*="devdocs"] {
+#links li a[href*="devdocs"] {
     color: yellow;
   }
   
-#aliados li a[href*="trybe"] {
+#links li a[href*="trybe"] {
     color: green;
   }
 
