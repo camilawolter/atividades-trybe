@@ -35,27 +35,32 @@ ol li em {
 
 #links li a:hover {
     font-weight:bolder;
-  }
+}
   
 #links li a[href*="stackoverflow"] {
    color: orange;
-  }
+   text-decoration: none;
+}
   
 #links li a[href*="w3schools"] {
     color: green;
-  }
+    text-decoration: none;
+}
   
 #links li a[href*="mozilla"] {
     color: black;
-  }
+    text-decoration: none;
+}
   
 #links li a[href*="devdocs"] {
     color: yellow;
-  }
+    text-decoration: none;
+}
   
 #links li a[href*="trybe"] {
     color: green;
-  }
+    text-decoration: none;
+}
 
 
 
