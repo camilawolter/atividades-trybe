@@ -1,0 +1,63 @@
+ol li {
+    background-color: yellow;
+}
+
+ol li:nth-child(odd) {
+    text-transform: uppercase;
+}
+
+ol li:nth-child(even) {
+    color: green;
+}
+
+h1, h3 {
+    color: red;
+}
+
+h1 em  {
+    color: red;
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+ol li em {
+    font-weight: bolder;
+}
+
+/* Coloca a cor nos elemnetos até o 4 */
+#lista li:not(:nth-child(n+4)){
+    color: blue;
+}
+
+
+
+#aliados li a:hover {
+    font-weight:bolder;
+  }
+  
+#aliados li a[href*="stackoverflow"] {
+   color: orange;
+  }
+  
+  #aliados li a[href*="w3schools"] {
+    color: green;
+  }
+  
+#aliados li a[href*="mozilla"] {
+    color: black;
+  }
+  
+#aliados li a[href*="devdocs"] {
+    color: yellow;
+  }
+  
+#aliados li a[href*="trybe"] {
+    color: green;
+  }
+
+
+
