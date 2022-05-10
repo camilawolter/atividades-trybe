@@ -1,0 +1,8 @@
+header, aside, footer {
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+}
