@@ -1,6 +1,5 @@
 nav, aside, footer {
     text-align: center;
-    border-top: 1px rgb(43, 41, 41) solid;
 }
 
 body {
@@ -11,19 +10,17 @@ body {
     background-color: #f3e4dc;
 }
 
-h1, h2, h3 {
-    margin-top: 25px;
+h2, h3 {
+    margin-top: 20px;
     text-align: center;
 }
 
-p {
-    padding: 10px;
-}
-
-nav {
-    background-color: #ece2e2;
-    margin: 0;
-    border-bottom: 1px rgb(0, 0, 0) solid;
+h1, nav {
+    background-color: #d8cfcf;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 2%;
 }
 
 nav ul {
@@ -41,8 +38,15 @@ nav ul li {
 }
 
 nav ul li a {
-    padding: 5px 10px;
+    padding: 5px 5px;
     text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: rgb(163, 160, 160);
+    border-radius: 5%;
+    color: white;
 }
 
 table, th, td {
@@ -66,4 +70,30 @@ table {
 img {
     display: block;
     max-width: 100%;
+}
+
+#ref h3 {
+    text-align: left;
+}
+
+#ref ul li a {
+    /* text-decoration: none; */
+    color: black;
+    margin-left: 10px;
+}
+
+#ref ul li {
+    list-style-type: none;
+}
+
+#ref ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 5px;
+}
+
+#ref ul li a:hover {
+    background-color: rgb(163, 160, 160);
+    color: white;
 }
