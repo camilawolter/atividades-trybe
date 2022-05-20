@@ -19,5 +19,11 @@ function quadradoBranco () {
 }
 quadradoBranco();
 
+// Exercício 4
+function corrigindoTitulo () {
+    let titulo = document.getElementsByTagName('h1')[0];
+    titulo.innerHTML = 'Exercício 5.1 - JavaScript';
+}
+corrigindoTitulo();
 
-document.getElementsByTagName('h1')[0].innerHTML = 'Exercício 5.1 - JavaScript';
+
