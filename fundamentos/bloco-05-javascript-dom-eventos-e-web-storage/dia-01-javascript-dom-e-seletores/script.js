@@ -26,4 +26,9 @@ function corrigindoTitulo () {
 }
 corrigindoTitulo();
 
-
+// Exercício 5
+function modficar () {
+    let paragrafo = document.getElementsByTagName('p')[0];
+    paragrafo.innerHTML = paragrafo.innerHTML.toUpperCase();
+}
+modficar();
