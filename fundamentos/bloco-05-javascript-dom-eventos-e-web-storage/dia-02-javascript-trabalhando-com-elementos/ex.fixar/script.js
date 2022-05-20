@@ -32,3 +32,18 @@ filhoDoPrimeiroFilhoDoFilho.id = 'filhoDoPrimeiroFilhoDoFilho';
 primeiroFilhoDoFilho.appendChild(filhoDoPrimeiroFilhoDoFilho);
 
 console.log(document.getElementById('filhoDoPrimeiroFilhoDoFilho').nextElementSibling); //acessando o terceiroFilho a partir desse filho
+
+// PARTE TRÊS
+//removendo todo os elementos filhos, exceto pai, elementoOndeVoceEsta e primeiroFilhoDoFilho
+
+const paii = document.getElementById('pai'); 
+
+for (let index = paii.childNodes.length - 1; index >= 0; index -= 1) { 
+    let filhoAtual = paii.childNodes[index];
+    if (filhoAtual !== 'elementoOndeVoceEsta') {
+        filhoAtual.removeChild();
+    }
+}
+
+let segundoEUltimoFilhoDoFilho = document.getElementById('segundoEUltimoFilhoDoFilho');
+segundoEUltimoFilhoDoFilho.removeChild();
