@@ -85,7 +85,7 @@
 
         // adicionando a tag section com classe right-content e filho da main
         const sectionDireita = document.createElement('section');
-        sectionDireita.className = 'left-content';
+        sectionDireita.className = 'right-content';
         elementoMain.appendChild(sectionDireita);
 
         // adicionando imagem com src e colocando classe small-image sendo filha do sectionEsquerda
@@ -112,7 +112,32 @@
             elementoMain.appendChild(elementoH3);
         }
 
+        //PARTE DOIS
+        // adicionando classe title na tag h1 
+        const title = document.querySelector('h1');
+        title.className = 'title';
+
+        // adicionando classe description nas tags h3
+        const description = document.getElementsByTagName('h3');
+        for (let index = 0; index < 3; index += 1) {
+            description[index].className = 'description';
+        }
         
+        //removendo sectionEsquerda
+        const removeSectionEsquerda = document.getElementsByClassName('left-content')[0];
+        elementoMain.removeChild(removeSectionEsquerda);
+
+        // centralizando sectionDireita
+        const centroSectionDireita = document.getElementsByClassName('right-content')[0];
+        centroSectionDireita.style.marginRight = 'auto';
+
+        // trocando cor de fundo do elemento pai que possui a classe center-content
+        const mudaCor = document.getElementsByClassName('center-content') [0];
+        mudaCor.parentNode.style.backgroundColor = 'green';
+        
+        // removendo dois últimos números da lista
+        listaUl.lastChild.remove();
+        listaUl.lastChild.remove();
         
     </script>
   </body>
