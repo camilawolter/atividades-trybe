@@ -45,3 +45,14 @@ function criandoDiasDoMes() {
   }
 }
 criandoDiasDoMes ();
+
+function criandoFeriadosButton (nomeButton) {
+  let buttonContainer = document.querySelector('.buttons-container');
+  let novoButton = document.createElement('button');
+  let novoButtonID = 'btn-holiday'
+
+  novoButton.innerHTML = nomeButton;
+  novoButton.id = novoButtonID;
+  buttonContainer.appendChild(novoButton);
+}
+criandoFeriadosButton ('Feriados');
