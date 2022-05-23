@@ -42,14 +42,13 @@ myWebpage.addEventListener('dblclick', portifolio);
 function aletrarCor (evento) {
     evento.target.style.color = 'green';
 }
-
 myWebpage.addEventListener('mouseover', aletrarCor);
 
 function voltarCor (evento) {
     evento.target.style.color = 'unset';
 }
-
 myWebpage.addEventListener('mouseout', voltarCor);
+
 // Segue abaixo um exemplo do uso de event.target:
 
 
