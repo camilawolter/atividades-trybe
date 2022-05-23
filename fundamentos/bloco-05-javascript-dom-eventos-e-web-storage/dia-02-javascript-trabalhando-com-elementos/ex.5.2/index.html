@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+        //PARTE UM
+        // adicionando tag h1 com texto como filho da tag body
+        const elementoH1 = document.createElement('h1');
+        elementoH1.innerText = ' Exercício 5.2 - JavaScript DOM';
+        document.body.appendChild(elementoH1);
+
+        // adicionando tag main com classe main-content e filho da tag body
+        const elementoMain = document.createElement('main');
+        elementoMain.className = 'main-content';
+        document.body.appendChild(elementoMain);
+
+        // adicinando a tag section com classe center-cintent como filho da tag main
+        const elementoSection = document.createElement('section');
+        elementoSection.className = 'center-content';
+        elementoMain.appendChild(elementoSection);
+
+        // adicionando tag p como filho da section e colocando texto
+        const paragraph = document.createElement('p');
+        paragraph.innerText = 'textinho bonitinho';
+        elementoSection.appendChild(paragraph);
+
+        // adicionando a tag section com classe left-content e filho da main
+        const sectionEsquerda = document.createElement('section');
+        sectionEsquerda.className = 'left-content';
+        elementoMain.appendChild(sectionEsquerda);
+
+        // adicionando a tag section com classe right-content e filho da main
+        const sectionDireita = document.createElement('section');
+        sectionDireita.className = 'right-content';
+        elementoMain.appendChild(sectionDireita);
+
+        // adicionando imagem com src e colocando classe small-image sendo filha do sectionEsquerda
+        const imagem = document.createElement('img');
+        imagem.className = 'small-image';
+        imagem.src = 'https://picsum.photos/200';
+        sectionEsquerda.appendChild(imagem);
+
+        // adicionando lista não ordenada com valores um a dez sendo filha do setioDireita
+        let numeros = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez']
+        const listaUl = document.createElement('ul');
+        sectionDireita.appendChild(listaUl);
+
+        for (let num in numeros) {
+            const listaLi = document.createElement('li');
+            listaLi.innerHTML = numeros[num];
+            listaUl.appendChild(listaLi);
+        }
+
+        // adicionando 3 tags h3 sendo filhas do main
+        for (let index = 1; index <= 3; index += 1) {
+            const elementoH3 = document.createElement('h3');
+            elementoH3.innerText = index;
+            elementoMain.appendChild(elementoH3);
+        }
+
+        //PARTE DOIS
+        // adicionando classe title na tag h1 
+        const title = document.querySelector('h1');
+        title.className = 'title';
+
+        // adicionando classe description nas tags h3
+        const description = document.getElementsByTagName('h3');
+        for (let index = 0; index < 3; index += 1) {
+            description[index].className = 'description';
+        }
+        
+        //removendo sectionEsquerda
+        const removeSectionEsquerda = document.getElementsByClassName('left-content')[0];
+        elementoMain.removeChild(removeSectionEsquerda);
+
+        // centralizando sectionDireita
+        const centroSectionDireita = document.getElementsByClassName('right-content')[0];
+        centroSectionDireita.style.marginRight = 'auto';
+
+        // trocando cor de fundo do elemento pai que possui a classe center-content
+        const mudaCor = document.getElementsByClassName('center-content') [0];
+        mudaCor.parentNode.style.backgroundColor = 'green';
+        
+        // removendo dois últimos números da lista
+        listaUl.lastChild.remove();
+        listaUl.lastChild.remove();
+        
+    </script>
+  </body>
+</html>
