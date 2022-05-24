@@ -130,3 +130,13 @@ function novaTarefa (tarefa) {
   tarefaContainer.appendChild(nomeTarefa);
 }
 novaTarefa('Exercícios: ');
+
+function legendaCorTarefa (cor) {
+  let tarefaContainer = document.querySelector('.my-tasks');
+  let novaTarefa = document.createElement('div');
+
+  novaTarefa.className = 'task';
+  novaTarefa.style.backgroundColor = cor;
+  tarefaContainer.appendChild(novaTarefa);
+}
+legendaCorTarefa('yellow');
