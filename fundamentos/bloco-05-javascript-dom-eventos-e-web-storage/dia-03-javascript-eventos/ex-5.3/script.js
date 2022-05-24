@@ -121,3 +121,12 @@ function diaMouseOut () {
   })
 }
 diaMouseOut();
+
+function novaTarefa (tarefa) {
+  let tarefaContainer = document.querySelector('.my-tasks');
+  let nomeTarefa = document.createElement('span');
+
+  nomeTarefa.innerHTML = tarefa;
+  tarefaContainer.appendChild(nomeTarefa);
+}
+novaTarefa('Exercícios: ');
