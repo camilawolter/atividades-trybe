@@ -103,3 +103,21 @@ function textoSexta () {
   })
 }
 textoSexta();
+
+function diaMouseOver () {
+  let dias = document.querySelector('#days');
+
+  dias.addEventListener('mouseover', function (evento) {
+    evento.target.style.fontSize = '40px';
+  })
+}
+diaMouseOver();
+
+function diaMouseOut () {
+  let dias = document.querySelector('#days');
+
+  dias.addEventListener('mouseout', function (evento) {
+    evento.target.style.fontSize = '20px';
+  })
+}
+diaMouseOut();
