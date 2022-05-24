@@ -56,3 +56,22 @@ function criandoFeriadosButton (nomeButton) {
   buttonContainer.appendChild(novoButton);
 }
 criandoFeriadosButton ('Feriados');
+
+function corFundoFeriados () {
+  let feriadosButton = document.querySelector('#btn-holiday');
+  let feriados = document.querySelectorAll('.holiday');
+  let backgroud = 'rgb(238,238,238)';
+  let novaCor = 'pink';
+
+  feriadosButton.addEventListener('click', function () {
+    for (let index = 0; index < feriados.length; index += 1) {
+      if (feriados[index].style.backgroundColor === novaCor) {
+        feriados[index].style.backgroundColor = backgroud;
+      } else {
+        feriados[index].style.backgroundColor = novaCor;
+      }
+    }
+  })
+}
+corFundoFeriados ();
+
