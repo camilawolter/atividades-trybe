@@ -85,3 +85,21 @@ function criandoSextaButton (nomeButton) {
   buttonContainerSexta.appendChild(novoButtonSexta)
 }
 criandoSextaButton ('Sexta-feira');
+
+function textoSexta () {
+  let sextaButton = document.querySelector('#btn-friday');
+  let sextas = document.querySelectorAll('.friday');
+  let texto = 'SEXTOU'
+  let diasSexta = [4, 11, 18, 25];
+
+  sextaButton.addEventListener('click', function () {
+    for (let index = 0; index < sextas.length; index += 1) {
+      if (sextas[index].innerHTML !== texto) {
+        sextas[index].innerHTML = texto
+      } else {
+        sextas[index].innerHTML = diasSexta[index];
+      }
+    }
+  })
+}
+textoSexta();
