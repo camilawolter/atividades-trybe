@@ -172,3 +172,32 @@ function corFundoTarefa () {
   })
 }
 corFundoTarefa();
+
+function novosCompromissos () {
+  let taskInput = document.querySelector('#task-input');
+  let buttonAdd = document.querySelector('#btn-add');
+  let taskList = document.querySelector('.task-list');
+
+  buttonAdd.addEventListener('click', function() {
+    if (taskInput.value.length > 0) {
+      let novaList = document.createElement('li');
+      novaList.innerText = taskInput.value;
+
+      taskList.appendChild(novaList);
+      taskInput.value = '';
+    } else {
+      alert('ERROR!')
+    }
+  })
+
+  taskInput.addEventListener('click', function(evento) {
+    if (evento.key === 'Enter' && taskInput.value.length > 0) {
+      let novaList = document.createElement('li');
+      novaList.innerText = taskInput.value;
+
+      taskList.appendChild(novaList);
+      taskInput.value = '';
+    }
+  })
+}
+novosCompromissos();
