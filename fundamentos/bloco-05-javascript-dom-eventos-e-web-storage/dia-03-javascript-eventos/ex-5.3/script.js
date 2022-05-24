@@ -75,3 +75,13 @@ function corFundoFeriados () {
 }
 corFundoFeriados ();
 
+function criandoSextaButton (nomeButton) {
+  let buttonContainerSexta = document.querySelector('.buttons-container');
+  let novoButtonSexta = document.createElement('button');
+  let novoButtonIDSexta = 'btn-friday';
+
+  novoButtonSexta.innerHTML = nomeButton;
+  novoButtonSexta.id = novoButtonIDSexta;
+  buttonContainerSexta.appendChild(novoButtonSexta)
+}
+criandoSextaButton ('Sexta-feira');
