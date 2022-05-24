@@ -139,4 +139,36 @@ function legendaCorTarefa (cor) {
   novaTarefa.style.backgroundColor = cor;
   tarefaContainer.appendChild(novaTarefa);
 }
-legendaCorTarefa('yellow');
+legendaCorTarefa('red');
+
+function selecionarTask () {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let minhaTask = document.querySelector('.task');
+
+  minhaTask.addEventListener('click', function(evento) {
+    if (selectedTask.length === 0) {
+      evento.target.className = 'task selected';
+    } else {
+      evento.target.className = 'task';
+    }
+  })
+}
+selecionarTask();
+
+function corFundoTarefa () {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let dias = document.querySelector('#days');
+  let task = document.querySelector('.task');
+  let corTask = task.style.backgroundColor;
+
+  dias.addEventListener('click', function(evento) {
+    let corNaTarefa = evento.target.style.color;
+    if (selectedTask.length > 0 && corNaTarefa !== corTask) {
+      let color = selectedTask[0].style.backgroundColor;
+      evento.target.style.color = color;
+    } else if (corNaTarefa === corTask && selectedTask.length !== 0) {
+      evento.target.style.color = 'rgb(119,119,119)';
+    }
+  })
+}
+corFundoTarefa();
