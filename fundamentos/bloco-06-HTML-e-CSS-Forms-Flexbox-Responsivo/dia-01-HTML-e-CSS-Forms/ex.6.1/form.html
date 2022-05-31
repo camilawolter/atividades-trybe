@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário TrybeTrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário TrybeTrip</h1>
+    </header>
+    <div id="conteiner">
+        <form action="" method="get">
+            <label for="nome-completo">Nome:
+                <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome">
+            </label>
+            <br>
+            <label for="input-email">E-mail:
+                <input type="text" name="email" id="input-email" placeholder="Digite seu e-mail">
+            </label>
+            <br>
+            <p>Destino preferido:</p>
+            <label for="opcao-um">
+                <input type="radio" name="opcoes" id="opcao-um">Cidade
+            </label>
+            <label for="opcao-dois">
+                <input type="radio" name="opcoes" id="opcao-dois">Campo
+            </label>
+            <label for="opcao-tres">
+                <input type="radio" name="opcoes" id="opcao-tres">Praia
+            </label>
+            <label for="opcao-quatro">
+                <input type="radio" name="opcoes" id="opcao-quatro">Montanhas
+            </label>
+        <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+        <textarea name="resposta" id="textarea-1" cols="30" rows="10"></textarea>
+        <br>
+        <p>Qual a melhor data para realizar sua viagem? <input type="date" name="data" id="data"></p>
+            <label for="concordo-um">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                <input type="checkbox" name="concordo" id="concordo-um">
+            </label>
+            <br>
+            <label for="concordo-dois">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                <input type="checkbox" name="concordo" id="concordo-dois">
+            </label>
+    </div>
+    <input type="submit" value="Enviar">
+    <button>Apagar</button>
+    </form>
+</body>
+</html>
