@@ -16,28 +16,34 @@
     <div id="conteiner">
         <form action="" method="get">
             <label for="nome-completo">Nome:
-                <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome">
+                <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" minlength="10"
+                    maxlength="40">
             </label>
             <br>
             <label for="input-email">E-mail:
-                <input type="text" name="email" id="input-email" placeholder="Digite seu e-mail">
+                <input type="text" name="email" id="input-email" placeholder="Digite seu e-mail" minlength="10"
+                    maxlength="50">
             </label>
             <br>
-            <p>Destino preferido:</p>
-            <label for="opcao-um">
-                <input type="radio" name="opcoes" id="opcao-um">Cidade
-            </label>
-            <label for="opcao-dois">
-                <input type="radio" name="opcoes" id="opcao-dois">Campo
-            </label>
-            <label for="opcao-tres">
-                <input type="radio" name="opcoes" id="opcao-tres">Praia
-            </label>
-            <label for="opcao-quatro">
-                <input type="radio" name="opcoes" id="opcao-quatro">Montanhas
-            </label>
-            <p>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
-            <textarea name="resposta" id="textarea-1" cols="30" rows="10"></textarea>
+            <fieldset>
+                <legend>Destino preferido:</legend>
+                <label for="opcao-um">
+                    <input type="radio" name="opcoes" id="opcao-um">Cidade
+                </label>
+                <label for="opcao-dois">
+                    <input type="radio" name="opcoes" id="opcao-dois">Campo
+                </label>
+                <label for="opcao-tres">
+                    <input type="radio" name="opcoes" id="opcao-tres">Praia
+                </label>
+                <label for="opcao-quatro">
+                    <input type="radio" name="opcoes" id="opcao-quatro">Montanhas
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</legend>
+                <textarea name="resposta" id="textarea-1" cols="30" rows="10" maxlength="500"></textarea>
+            </fieldset>
             <br>
             <p>Qual a melhor data para realizar sua viagem? <input type="date" name="data" id="data"></p>
             <label for="concordo-um">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
@@ -50,7 +56,7 @@
             </label>
     </div>
     <input type="submit" value="Enviar">
-    <button>Apagar</button>
+    <input type="reset" value="Limpar">
     </form>
 </body>
 
