@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+body {
+    color: #223b26;
+    background-color: #b5dbbd;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #215229;
+    ;
+}
+
+#nome-completo,
+#input-email {
+    margin-top: 20px;
+    border: 1px solid #7dcc78;
+    border-radius: 5px;
+}
+
+#destino {
+    margin-top: 20px;
+    border: 1px solid #7dcc78;
+    border-radius: 5px;
+}
+
+#texto-resposta {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #7dcc78;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+    border: 1px solid #7dcc78;
+}
+
+p {
+    margin-top: 20px;
+}
+
+#input-submit,
+#input-reset {
+    border: none;
+    text-align: left;
+    background-color: #7dcc78;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#input-submit:hover {
+    background-color: #5da169;
+    transition: background .6s;
+    border-radius: 10px;
+}
+
+#input-reset:hover {
+    background-color: #5da169;
+    transition: background .6s;
+    border-radius: 10px;
+}
