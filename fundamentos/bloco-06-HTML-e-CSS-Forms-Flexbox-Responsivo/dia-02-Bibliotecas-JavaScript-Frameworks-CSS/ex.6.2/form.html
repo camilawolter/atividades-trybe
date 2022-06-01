@@ -8,52 +8,65 @@
     <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
     <script src="jquery-3.6.0.min.js"></script>
     <script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1>Formulário TrybeTrip</h1>
-    </header>
+        <h1 class="display-5 text-center container mb-2">Formulário TrybeTrip</h1>
+    </header> 
     <form action="" method="get">
-        <label for="nome-completo">Nome:</label>
-        <input class="form-control me-auto" type="text" name="nome" id="nome-completo" placeholder="Digite seu nome"
+        
+        <div class="container mb-2">
+            <label for="nome-completo">Nome:</label>
+            <input class="form-control me-auto" type="text" name="nome" id="nome-completo" placeholder="Digite seu nome"
             minlength="10" maxlength="40" required>
-
-        <label for="input-email">E-mail:</label>
-        <input class="form-control me-auto" type="text" name="email" id="input-email" placeholder="Digite seu e-mail"
+        </div>
+        
+        <div class="container mb-2">
+            <label for="input-email">E-mail:</label>
+            <input class="form-control me-auto" type="text" name="email" id="input-email" placeholder="Digite seu e-mail"
             minlength="10" maxlength="50" required>
+        </div>
 
-        <fieldset id="destino" required>
-            <legend>Destino preferido:</legend>
-            <label for="opcao-um">
-                <input class="form-check-input" type="radio" name="opcoes" id="opcao-um">Cidade
-            </label>
-            <label for="opcao-dois">
-                <input class="form-check-input" type="radio" name="opcoes" id="opcao-dois">Campo
-            </label>
-            <label for="opcao-tres">
-                <input class="form-check-input" type="radio" name="opcoes" id="opcao-tres">Praia
-            </label>
-            <label for="opcao-quatro">
-                <input class="form-check-input" type="radio" name="opcoes" id="opcao-quatro">Montanhas
-            </label>
-        </fieldset>
-        <fieldset id="texto-resposta">
-            <legend>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</legend>
-            <textarea class="form-control" name="resposta" id="textarea" cols="30" rows="10" maxlength="500"
-                required></textarea>
-        </fieldset>
-        <p>Qual a melhor data para realizar sua viagem? <input type="date" name="data" id="data"></p>
-        <input class="form-check-input" type="checkbox" name="concordo" id="concordo-um">
-        <label for="concordo-um">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
-        <div class="col-auto">
+        <div class="container mb-2" required>
+            <p class="lead">Destino preferido:</p>
+            <input class="form-check-input" type="radio" name="opcoes" id="opcao-um">
+            <label class="form-check-label" for="opcao-um">Cidade</label>
+            
+            <input class="form-check-input" type="radio" name="opcoes" id="opcao-dois">
+            <label class="form-check-label" for="opcao-dois">Campo</label>
+            
+            <input class="form-check-input" type="radio" name="opcoes" id="opcao-tres">
+            <label class="form-check-label" for="opcao-tres">Praia</label>
+            
+            <input class="form-check-input" type="radio" name="opcoes" id="opcao-quatro">
+            <label class="form-check-label" for="opcao-quatro">Montanhas</label>    
+        </div>
+        
+        <div class="container mb-2">
+            <p class="lead">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</p>
+            <textarea class="form-control" name="resposta" id="textarea" cols="30" rows="10" maxlength="500" required></textarea>
+        </div>
+        <div class="container mb-2">
+            <p class="lead">Qual a melhor data para realizar sua viagem?</p>
+            <input type="date" name="data" id="data">
+        </div>
+        
+        <div class="container mb-2">
+            <input class="form-check-input" type="checkbox" name="concordo" id="concordo-um">
+            <label class="form-check-label" for="concordo-um">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        </div>
+
+        <div class="container mb-2">
             <input class="form-check-input" type="checkbox" name="concordo" id="concordo-dois" required>
-            <label for="concordo-dois">Concordo que imagens das minhas férias poderão ser usadas na divulgação de
+            <label class="form-check-label" for="concordo-dois">Concordo que imagens das minhas férias poderão ser usadas na divulgação de
                 concursos futuros.</label>
         </div>
-        <div class="hstack gap-3">
-            <input type="submit" value="Enviar" class="btn btn-secondary">
-            <input type="reset" value="Limpar" class="btn btn-outline-danger">
+
+        <div id="button"class="container mb-2">
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpar</button>
         </div>
     </form>
 </body>

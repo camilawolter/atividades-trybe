@@ -1,0 +1,18 @@
+body {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgb(167, 224, 149);
+}
+
+h1, form {
+    background-color: rgb(36, 68, 51);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+#button {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
