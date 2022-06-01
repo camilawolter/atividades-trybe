@@ -17,13 +17,13 @@
         <form action="" method="get">
             <label for="nome-completo">Nome:
                 <input type="text" name="nome" id="nome-completo" placeholder="Digite seu nome" minlength="10"
-                    maxlength="40">
+                    maxlength="40" required>
             </label>
             <label for="input-email">E-mail:
                 <input type="text" name="email" id="input-email" placeholder="Digite seu e-mail" minlength="10"
-                    maxlength="50">
+                    maxlength="50" required>
             </label>
-            <fieldset id="destino">
+            <fieldset id="destino" required>
                 <legend>Destino preferido:</legend>
                 <label for="opcao-um">
                     <input type="radio" name="opcoes" id="opcao-um">Cidade
@@ -40,7 +40,7 @@
             </fieldset>
             <fieldset id="texto-resposta">
                 <legend>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</legend>
-                <textarea name="resposta" id="textarea-1" cols="30" rows="10" maxlength="500"></textarea>
+                <textarea name="resposta" id="textarea" cols="30" rows="10" maxlength="500" required></textarea>
             </fieldset>
             <p>Qual a melhor data para realizar sua viagem? <input type="date" name="data" id="data"></p>
             <label for="concordo-um">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
@@ -53,7 +53,7 @@
             </label>
     </div>
     <input type="submit" value="Enviar" id="input-submit">
-    <input type="reset" value="Limpar">
+    <input type="reset" value="Limpar" id="input-reset">
     </form>
     <script src="script.js"></script>
 </body>
