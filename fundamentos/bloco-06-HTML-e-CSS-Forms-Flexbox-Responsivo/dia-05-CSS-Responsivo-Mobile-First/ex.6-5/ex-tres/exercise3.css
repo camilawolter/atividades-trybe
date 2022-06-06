@@ -80,5 +80,15 @@ body {
 }
 
 @media print {
+    #header, #navigation, #footer {
+        display: none;
+    }
     
+    #content {
+        padding: 0;
+    }
+
+    #aside {
+        padding: 0;
+    }
 }
