@@ -16,6 +16,12 @@ p {
   padding: 15px;
 }
 
+li {
+  list-style-type: none;
+}
+
+
+
 /* primeiro breakpoint e estilos */
 
 @media screen and (max-width: 500px) {
@@ -63,10 +69,39 @@ p {
 @media screen and (min-width: 500px) {
   body {
     background-color: rgb(138, 138, 206);
+    font-size: 20px;
   }
 
   .container {
-    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+
+  header {
+    text-align: center;
+    background-color: rgb(195, 211, 205);
+    border-radius: 35px;
+    margin: 15px 10px 15px
+  }
+
+  header p {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .aside-one, .aside-two, .main-content, footer  {
+    text-align: justify;
+    background-color: rgb(195, 211, 205);
+    border-radius: 35px;
+    margin: 15px 10px 15px
+  }
+
+  .aside-one h2, .aside-two h2, .main-content h1, footer h3 {
+    text-align: center;
+  }
+
+  .aside-one {
+    flex-grow: 15px;
   }
 }
 
