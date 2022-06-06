@@ -112,7 +112,23 @@ li {
     background-color: rgb(97, 128, 97);
   }
 
-  .container {
-    flex-wrap: nowrap;
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
+
+  nav {
+    display: flex;
+    flex-basis: 500px;
+    flex: 1;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
 }
