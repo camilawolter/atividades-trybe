@@ -1,7 +1,35 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+}
+
+p {
+  padding: 15px;
+}
+
+/* primeiro breakpoint e estilos */
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: rgb(221, 170, 152);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
+
+  .container {
+    flex-direction: column;
   }
+
+  p {
+    padding: 0 5px;
+    text-align: justify;
+  }
+}
