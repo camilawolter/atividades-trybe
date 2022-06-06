@@ -80,15 +80,64 @@ body {
 }
 
 @media print {
-    #header, #navigation, #footer {
+
+    #header,
+    #navigation,
+    #footer {
         display: none;
     }
-    
+
     #content {
         padding: 0;
     }
 
     #aside {
         padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        padding: 0px;
+    }
+
+    #header {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 30px;
+    }
+
+    #navigation {
+        margin-top: 80px;
+    }
+
+    #navigation ul {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #navigation ul li a {
+        flex-basis: 500px;
+    }
+
+    #content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content {
+        width: 80%;
+        text-align: justify;
+    }
+
+    #aside {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
     }
 }
