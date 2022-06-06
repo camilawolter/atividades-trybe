@@ -45,3 +45,15 @@ p {
     flex-wrap: wrap;
   }
 }
+
+/* terceiro breakpoint e estilos */
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: rgb(97, 128, 97);
+  }
+
+  .container {
+    flex-wrap: nowrap;
+  }
+}
