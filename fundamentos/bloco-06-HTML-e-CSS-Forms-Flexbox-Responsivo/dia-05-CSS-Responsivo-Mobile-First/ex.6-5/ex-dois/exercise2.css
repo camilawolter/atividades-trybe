@@ -33,3 +33,15 @@ p {
     text-align: justify;
   }
 }
+
+/* segundo breakpoint e estilos */
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: rgb(138, 138, 206);
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+}
