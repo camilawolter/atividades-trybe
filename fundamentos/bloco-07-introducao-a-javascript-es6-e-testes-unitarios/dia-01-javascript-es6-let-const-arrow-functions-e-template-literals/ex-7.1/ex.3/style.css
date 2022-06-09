@@ -1,0 +1,28 @@
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 1em gold;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 1px solid purple;
+    color: purple;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+}
