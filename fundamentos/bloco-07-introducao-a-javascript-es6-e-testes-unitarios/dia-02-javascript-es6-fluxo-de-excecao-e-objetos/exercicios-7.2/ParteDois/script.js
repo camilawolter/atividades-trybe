@@ -47,3 +47,13 @@ const customerInfo = (order) => {
 }
 customerInfo(order);
 
+const orderModifier = (order) => {
+    const novoNome = order['name'] = 'Luiz Silva';
+    const novoTotal = order['payment'] = 50;
+    const pizzas = Object.keys(order.order.pizza);
+    const drink = order['order'].drinks['coke'].type;
+
+    console.log(`Olá ${novoNome}, o total do seu pedido de ${pizzas} e ${drink} é de R$ ${novoTotal},00.`);
+  }
+  
+  orderModifier(order);
