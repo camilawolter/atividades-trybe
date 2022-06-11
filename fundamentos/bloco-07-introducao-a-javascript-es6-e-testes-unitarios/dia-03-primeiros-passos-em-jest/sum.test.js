@@ -1,6 +1,6 @@
 const sum = require('./sum.js');
 
-describe('sum', () => {
+describe('testa a função sum', () => {
     it('A soma de 4 e 5 é 9', () => {
         expect(sum(4,5)).toEqual(9);
     });
@@ -10,5 +10,5 @@ describe('sum', () => {
     it('Se ocorre o erro se um dos parâmetros passados forem string', () => {
         expect(() => sum(4,'5')).toThrowError();
         expect(() => sum(4, '5')).toThrowError('parameters must be numbers');
-    })
+    });
 });
