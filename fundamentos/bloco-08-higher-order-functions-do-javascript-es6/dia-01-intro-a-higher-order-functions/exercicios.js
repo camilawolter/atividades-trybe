@@ -1,9 +1,9 @@
 //EXERCÍCIO UM
-const newEmployees = (retorna) => {
+const newEmployees = (gerandoEmployees) => {
     const employees = {
-        id1: retorna('Pedro Guerra'), // Nome: Pedro Guerra -> Chame sua função passando o nome Pedro Guerra como parâmetro, substituindo as aspas
-        id2: retorna('Luiza Drumond'), // Nome: Luiza Drumond -> Chame sua função passando o nome Luiza Drumond como parâmetro, substituindo as aspas
-        id3: retorna('Carla Paiva'), // Nome: Carla Paiva -> Chame sua função passando o nome Carla Paiva como parâmetro, substituindo as aspas
+        id1: gerandoEmployees('Pedro Guerra'),
+        id2: gerandoEmployees('Luiza Drumond'),
+        id3: gerandoEmployees('Carla Paiva'),
     }
     return employees;
 };
@@ -17,3 +17,14 @@ const gerandoEmployees = (nome) => {
 };
 
 console.log(newEmployees(gerandoEmployees));
+
+//EXERCÍCIO DOIS
+const numeroSorteio = (meuNumero, numero) => meuNumero === numero;
+
+const resultadoSorteio = (meuNumero, callback) => {
+    const numero = Math.floor((Math.random() * 5) + 1);
+
+    return callback(meuNumero, numero) ? 'Parabéns você ganhou' : 'Tente novamente';
+};
+
+console.log(resultadoSorteio(5, numeroSorteio));
