@@ -60,4 +60,8 @@ const books = [{
     },
 ];
 
-// Adicione o código do exercício aqui:
+function formatedBookNames() {
+const nomes = books.map((book) => `${book.name} - ${book.genre} - ${book.author['name']}`);
+return nomes;
+}
+console.log(formatedBookNames(books));
