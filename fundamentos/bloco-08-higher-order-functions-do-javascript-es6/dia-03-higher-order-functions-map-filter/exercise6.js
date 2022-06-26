@@ -60,4 +60,9 @@ const books = [{
     },
 ];
 
-// Adicione o código do exercício aqui:
+function oldBooks() {
+    return books
+    .filter((book) => book.releaseYear < 1961)
+    .map((book) => book.name);
+}
+console.log(oldBooks(books));
