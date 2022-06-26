@@ -60,4 +60,9 @@ const books = [{
     },
 ];
 
-// Adicione o código do exercício aqui:
+function oldBooksOrdered() {
+    return books.filter((book) => (
+        book.releaseYear <= 1962
+    )).sort((a, b) => a.releaseYear - b.releaseYear);
+}
+console.log(oldBooksOrdered(books));
