@@ -60,4 +60,8 @@ const books = [{
     },
 ];
 
-// Adicione o código do exercício aqui:
+function fantasyOrScienceFictionAuthors() {
+   const generos = ['Fantasia', 'Ficção Científica']
+   return books.filter((book) => generos.includes(book.genre)).map((book) => book.author['name']).sort();
+}
+console.log(fantasyOrScienceFictionAuthors(books));
