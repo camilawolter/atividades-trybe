@@ -60,3 +60,12 @@ const books = [{
     },
 ];
 
+function longestNamedBook() {
+    return books.reduce((maiorBook, bookAtual) => {
+        if(bookAtual.name.length > maiorBook.name.length) {
+            return bookAtual;
+        }
+        return maiorBook;
+    })
+}
+console.log(longestNamedBook(books));
