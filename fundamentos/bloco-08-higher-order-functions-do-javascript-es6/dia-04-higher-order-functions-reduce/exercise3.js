@@ -60,4 +60,10 @@ const books = [{
     },
 ];
 
-// Adicione o código do exercício aqui:
+function averageAge() {
+    const quantidadeBooks = books.length;
+    const somaIdade = books.reduce((soma, book) => (
+        soma + (book.releaseYear - book.author['birthYear'])), 0);
+    return somaIdade / quantidadeBooks;
+}
+console.log(averageAge(books));
