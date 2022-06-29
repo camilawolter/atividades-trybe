@@ -112,8 +112,15 @@ const ships = [{
     },
 ];
 
-const shipLength = ({name, length, measurementUnit}) => `${name} is ${length} ${measurementUnit} long`
+const shipLength = ({name, length, measurementUnit}) => (`${name} is ${length} ${measurementUnit} long`);
 
-console.log(shipLength(ships[0])) 
-console.log(shipLength(ships[1])) 
-console.log(shipLength(ships[2])) 
+console.log(shipLength(ships[0])); 
+console.log(shipLength(ships[1])); 
+console.log(shipLength(ships[2]));
+
+// ex 8
+const greet = (name, msg = 'Hi') => (`${msg} ${name}`); 
+
+console.log(greet('John'));
+console.log(greet('John', 'Good morning'));
+console.log(greet('Isabela', 'Oi'));
