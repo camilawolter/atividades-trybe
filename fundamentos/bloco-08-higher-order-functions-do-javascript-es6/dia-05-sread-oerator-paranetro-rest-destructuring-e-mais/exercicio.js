@@ -12,3 +12,7 @@ rectangles.forEach((rectangle) => {
 });
 
 // ex 2
+const sum = (...numbers) => {
+    return numbers.reduce((acc, valorAtual) => acc + valorAtual, 0);
+};
+console.log(sum(1, 2, 3, 4));
