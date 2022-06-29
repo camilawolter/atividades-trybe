@@ -32,8 +32,43 @@ const gunnar = {
     nationality: 'Icelandic',
 };
 
-
-const personLikes = ({name, age, likes}) => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
+const personLikes = ({
+    name,
+    age,
+    likes
+}) => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
 
 console.log(personLikes(alex));
 console.log(personLikes(gunnar));
+
+// ex 4
+const people = [{
+        name: 'Nicole',
+        bornIn: 1992,
+        nationality: 'Australian',
+    },
+    {
+        name: 'Harry',
+        bornIn: 2008,
+        nationality: 'Australian',
+    },
+    {
+        name: 'Toby',
+        bornIn: 1901,
+        nationality: 'Australian',
+    },
+    {
+        name: 'Frida',
+        bornIn: 1960,
+        nationality: 'Dannish',
+    },
+    {
+        name: 'Fernando',
+        bornIn: 2001,
+        nationality: 'Brazilian',
+    },
+];
+
+const personAust = (array) => array.filter(({nationality, bornIn}) => nationality === 'Australian' && bornIn > 1900 && bornIn <= 2000);
+
+console.log(personAust(people));
