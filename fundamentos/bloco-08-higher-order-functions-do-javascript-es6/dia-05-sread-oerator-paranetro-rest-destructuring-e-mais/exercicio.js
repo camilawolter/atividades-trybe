@@ -69,7 +69,10 @@ const people = [{
     },
 ];
 
-const personAust = (array) => array.filter(({nationality, bornIn}) => nationality === 'Australian' && bornIn > 1900 && bornIn <= 2000);
+const personAust = (array) => array.filter(({
+    nationality,
+    bornIn
+}) => nationality === 'Australian' && bornIn > 1900 && bornIn <= 2000);
 
 console.log(personAust(people));
 
@@ -90,3 +93,27 @@ const toObj = ([nome, marca, ano]) => ({
     ano
 });
 console.log(toObj(palio));
+
+// ex 7
+const ships = [{
+        name: 'Titanic',
+        length: 269.1,
+        measurementUnit: 'meters',
+    },
+    {
+        name: 'Queen Mary 2',
+        length: 1132,
+        measurementUnit: 'feet',
+    },
+    {
+        name: 'Yamato',
+        length: 256,
+        measurementUnit: 'meters',
+    },
+];
+
+const shipLength = ({name, length, measurementUnit}) => `${name} is ${length} ${measurementUnit} long`
+
+console.log(shipLength(ships[0])) 
+console.log(shipLength(ships[1])) 
+console.log(shipLength(ships[2])) 
