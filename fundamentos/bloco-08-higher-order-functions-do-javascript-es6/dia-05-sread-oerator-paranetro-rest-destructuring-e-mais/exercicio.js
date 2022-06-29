@@ -16,3 +16,24 @@ const sum = (...numbers) => {
     return numbers.reduce((acc, valorAtual) => acc + valorAtual, 0);
 };
 console.log(sum(1, 2, 3, 4));
+
+// ex 3
+const alex = {
+    name: 'Alex',
+    age: 26,
+    likes: ['fly fishing'],
+    nationality: 'Australian',
+};
+
+const gunnar = {
+    name: 'Gunnar',
+    age: 30,
+    likes: ['hiking', 'scuba diving', 'taking pictures'],
+    nationality: 'Icelandic',
+};
+
+
+const personLikes = ({name, age, likes}) => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
+
+console.log(personLikes(alex));
+console.log(personLikes(gunnar));
