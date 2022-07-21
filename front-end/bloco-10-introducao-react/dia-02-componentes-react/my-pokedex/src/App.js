@@ -4,7 +4,7 @@ import pokemons from './data';
 import Pokedex from './Pokedex'
 
 class App extends React.Component {
-  render () {
+  render() {
     return (
       <div className='App'>
         <h1> Pokedex </h1>
