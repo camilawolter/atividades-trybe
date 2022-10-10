@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web ✅
 
 ##### Bloco 1: Unix & Shell
 
@@ -64,42 +64,42 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objects_
 - [X] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
 ##### Bloco 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions]()_
+- [X] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [X] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [X] 8-6: _[Projeto - Zoo functions]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-1: _JavaScript Assíncrono e Callbacks_
+- [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Introdução - React
 
-- [ ] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Sistema Solar]()_
+- [X] 10-1: _'Hello, world!' no React!_
+- [X] 10-2: _Componentes React_
+- [X] 10-3: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 11: React
 
-- [ ] 11-1: _Componentes com estado e eventos_
-- [ ] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [X] 11-1: _Componentes com estado e eventos_
+- [X] 11-2: _Formulários no React_
+- [X] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 12: React
 
-- [ ] 12-1: _Ciclo de vida de componentes em React_
-- [ ] 12-2: _React Router_
+- [X] 12-1: _Ciclo de vida de componentes em React_
+- [X] 12-2: _React Router_
 - [ ] 12-3: _[Projeto - TrybeTunes]()_
 
 ##### Bloco 13: Metodologias Ágeis
