@@ -17,6 +17,7 @@ const readFile = async () => {
   }
 };
 
+// listar um filme do JSON pelo id
 app.get('/movies/:id', async (req, res) => {
   try {
     const movies = await readFile();
@@ -28,6 +29,7 @@ app.get('/movies/:id', async (req, res) => {
   }
 });
 
+// listar todos os filmes do JSON
 app.get('/movies', async (req, res) => {
   try {
     const movies = await readFile();
@@ -38,6 +40,7 @@ app.get('/movies', async (req, res) => {
   }
 });
 
+// cadastrar um novo filme no JSON
 app.post('/movies', async (req, res) => {
   try {
     const { movie, price } = req.body;
@@ -56,6 +59,7 @@ app.post('/movies', async (req, res) => {
   }
 });
 
+// editar info de um filme do JSON
 app.put('/movies/:id', async (req, res) => {
   try {
     const { id } = req.params;
@@ -76,6 +80,7 @@ app.put('/movies/:id', async (req, res) => {
   }
 });
 
+// Deletar um filme do JSON
 app.delete('/movies/;id', async (req, res) => {
   try {
     const { id } = req.params;
