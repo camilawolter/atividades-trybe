@@ -97,19 +97,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 12-1: _Ciclo de vida de componentes em React_
 - [X] 12-2: _React Router_
-- [X] 12-3: _[Projeto - TrybeTunes]()_
+- [X] 12-3: _[Projeto - TrybeTunes](https://github.com/camilawolter/projeto-trybetunes)_
 
 ##### Bloco 13: Metodologias Ágeis
 
 - [X] 13-1: _Metodologias Ágeis_
-- [X] 13-2: _[Projeto - Frontend Online Store]
+- [X] 13-2: _Projeto - Frontend Online Store_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
 - [X] 14-1: _RTL - Primeiros passos_
 - [X] 14-2: _RTL - Mocks e Inputs_
 - [X] 14-3: _RTL - Testando React Router_
-- [X] 14-4: _[Projeto - Testes em React]()_
+- [X] 14-4: _[Projeto - Testes em React](https://github.com/camilawolter/projeto-react-testing-library)_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
@@ -118,22 +118,22 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 15-3: _Usando o Redux no React - Prática_
 - [X] 15-4: _Usando o Redux no React - Actions Assíncronas_
 - [X] 15-5: _Testes em React-Redux_
-- [X] 15-6: _[Projeto - Trybe Wallet]()_
+- [X] 15-6: _[Projeto - Trybe Wallet](https://github.com/camilawolter/projeto-trybewallet)_
 
 ##### Bloco 16: Projeto React
 
-- [X] 16-1: _[Projeto - Jogo de Trivia]()_
+- [X] 16-1: _Projeto - Jogo de Trivia_
 
 ##### Bloco 17: React Hooks & Context API
 
 - [X] 17-1: _Context API do React_
 - [X] 17-2: _React Hooks - useState e useContext_
 - [X] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks](https://github.com/camilawolter/projeto-starwars-planets-search)_
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [X] 18-1: _[Projeto - App de Receitas]
+- [X] 18-1: _Projeto - App de Receitas_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
