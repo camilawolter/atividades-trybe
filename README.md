@@ -28,7 +28,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _[Projeto - Lessons Learned]()_
+- [X] 3-5: _[Projeto - Lessons Learned](https://github.com/camilawolter/projeto-lessons-learned)_
 
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
 
@@ -36,7 +36,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 4-2: _JavaScript - Array e loop For_
 - [X] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [X] 4-4: _JavaScript - Objetos e funções_
-- [X] 4-5: _[Projeto - Playground Functions]()_
+- [X] 4-5: _[Projeto - Playground Functions](https://github.com/camilawolter/projeto-playground-functions)_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
@@ -44,11 +44,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-2: _JavaScript - Trabalhando com elementos_
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
-- [X] 5-5: _[Projeto - Arte com Pixels]()_
-- [ ] 5-6: _[Projeto - Meme Generator]()_ 
-- [X] 5-7: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
-- [ ] 5-7: _[Projeto - Carta Misteriosa]()_
+- [X] 5-5: _[Projeto - Arte com Pixels](https://github.com/camilawolter/projeto-pixels-art)_ 
+- [X] 5-7: _[Projeto - Lista de tarefas](https://github.com/camilawolter/projeto-todo-list)_
 
 ##### Bloco 6: HTML & CSS avançado
 
@@ -57,14 +54,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [X] 6-6: _[Projeto - Trybewarts]()_
+- [X] 6-6: _[Projeto - Trybewarts](https://github.com/camilawolter/projeto-trybewarts)_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objects_
 - [X] 7-3: _Primeiros passos em Jest_
-- [X] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [X] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/camilawolter/projeto-js-unit-tests)_
 
 ##### Bloco 8: JavaScript ES6
 
@@ -73,7 +70,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [X] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [X] 8-6: _[Projeto - Zoo functions]()_
+- [X] 8-6: _[Projeto - Zoo functions](https://github.com/camilawolter/projeto-zoo-functions)_
 
 ## Desenvolvimento Front-end ✅
 
@@ -82,19 +79,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await
 - [X] 9-3: _Jest - Testes Assíncronos_
-- [X] 9-3: _[Projeto - Carrinho de Compras]()_
+- [X] 9-3: _[Projeto - Carrinho de Compras](https://github.com/camilawolter/projeto-shopping-cart)_
 
 ##### Bloco 10: Introdução - React
 
 - [X] 10-1: _'Hello, world!' no React!_
 - [X] 10-2: _Componentes React_
-- [X] 10-3: _[Projeto - Sistema Solar]()_
+- [X] 10-3: _[Projeto - Sistema Solar](https://github.com/camilawolter/solar-system)_
 
 ##### Bloco 11: React
 
 - [X] 11-1: _Componentes com estado e eventos_
 - [X] 11-2: _Formulários no React_
-- [X] 11-3: _[Projeto - Tryunfo]()_
+- [X] 11-3: _[Projeto - Tryunfo](https://github.com/camilawolter/projeto-tryunfo)_
 
 ##### Bloco 12: React
 
@@ -105,7 +102,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 13: Metodologias Ágeis
 
 - [X] 13-1: _Metodologias Ágeis_
-- [X] 13-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-2: _[Projeto - Frontend Online Store]
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
@@ -136,7 +133,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [X] 18-1: _[Projeto - App de Receitas]()_
+- [X] 18-1: _[Projeto - App de Receitas]
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
