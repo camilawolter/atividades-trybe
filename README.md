@@ -75,7 +75,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [X] 8-6: _[Projeto - Zoo functions]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end ✅
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
@@ -100,76 +100,76 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 12-1: _Ciclo de vida de componentes em React_
 - [X] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [X] 12-3: _[Projeto - TrybeTunes]()_
 
 ##### Bloco 13: Metodologias Ágeis
 
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [X] 13-1: _Metodologias Ágeis_
+- [X] 13-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _RTL - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [X] 14-1: _RTL - Primeiros passos_
+- [X] 14-2: _RTL - Mocks e Inputs_
+- [X] 14-3: _RTL - Testando React Router_
+- [X] 14-4: _[Projeto - Testes em React]()_
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 15-1: _Introdução ao Redux_
-- [ ] 15-2: _Usando o Redux no React_
-- [ ] 15-3: _Usando o Redux no React - Prática_
-- [ ] 15-4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _[Projeto - Trybe Wallet]()_
+- [X] 15-1: _Introdução ao Redux_
+- [X] 15-2: _Usando o Redux no React_
+- [X] 15-3: _Usando o Redux no React - Prática_
+- [X] 15-4: _Usando o Redux no React - Actions Assíncronas_
+- [X] 15-5: _Testes em React-Redux_
+- [X] 15-6: _[Projeto - Trybe Wallet]()_
 
 ##### Bloco 16: Projeto React
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [X] 16-1: _[Projeto - Jogo de Trivia]()_
 
 ##### Bloco 17: React Hooks & Context API
 
-- [ ] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [X] 17-1: _Context API do React_
+- [X] 17-2: _React Hooks - useState e useContext_
+- [X] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [X] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [X] 18-1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
 ##### Bloco 19:Docker: Utilizando Containers
 
-- [ ] 19-1: _Utilizando COntainers - Docker_
-- [ ] 19-2: _Manipulação e Criação de Imagens no Dockes_
-- [ ] 19-3: _Orquestrando Containers com Docker Compose_
-- [ ] 20-5: _[Projeto - Docker Todo-List]()_
+- [X] 19-1: _Utilizando COntainers - Docker_
+- [X] 19-2: _Manipulação e Criação de Imagens no Dockes_
+- [X] 19-3: _Orquestrando Containers com Docker Compose_
+- [X] 20-5: _[Projeto - Docker Todo-List](https://github.com/camilawolter/projeto-docker-todo-list)_
 
 ##### Bloco 20: Introdução - Bancos de dados relacionais
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma específica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [X] 20-1: _Banco de dados SQL_
+- [X] 20-2: _Encontrando dados em um banco de dados_
+- [X] 20-3: _Filtrando dados de forma específica_
+- [X] 20-4: _Manipulando tabelas_
+- [X] 20-5: _[Projeto - All For One](https://github.com/camilawolter/projeto-mysql-all-for-one)_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _Funções mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs_
-- [ ] 21-3: _Transformando ideias em um modelos de banco de dados_
-- [ ] 21-4: _[Projeto - One For All]()_
+- [X] 21-1: _Funções mais usadas no SQL_
+- [X] 21-2: _Descomplicando JOINs_
+- [X] 21-3: _Transformando ideias em um modelos de banco de dados_
+- [X] 21-4: _[Projeto - One For All](https://github.com/camilawolter/projeto-mysql-one-for-all)_
 
-##### Bloco 22: Introdução ao desenvolvimento Web com NOde.js
+##### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] 22-1: _Node.js - Um motor JavaScript_
-- [ ] 22-2: _Node.js - Fluxo Assíncrono_
-- [ ] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
-- [ ] 22-4: _Express - Http com Node.js_
-- [ ] 22-5: _Express - Middlewares_
-- [ ] 22-6: _[Projeto - Talker Manager]()_
+- [X] 22-1: _Node.js - Um motor JavaScript_
+- [X] 22-2: _Node.js - Fluxo Assíncrono_
+- [X] 22-3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
+- [X] 22-4: _Express - Http com Node.js_
+- [X] 22-5: _Express - Middlewares_
+- [X] 22-6: _[Projeto - Talker Manager](https://github.com/camilawolter/projeto-talker-manager)_
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
