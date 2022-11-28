@@ -4,7 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     author: DataTypes.STRING,
     pageQuantity: DataTypes.INTEGER,
     createdAt: DataTypes.DATE,
-    updateAt: DataTypes.DATE,
+    updatedAt: DataTypes.DATE,
   });
   return Book;
 }
