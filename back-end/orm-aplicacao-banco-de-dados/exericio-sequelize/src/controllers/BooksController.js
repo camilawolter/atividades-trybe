@@ -18,7 +18,7 @@ const create = async (req, res) => {
   const { title, author, pageQuantity } = req.body;
   const book = await BookService.create({ title, author, pageQuantity });
   res.status(201).json(book);
-}
+};
 
 const update = async (req, res) => {
   const { id } = req.params;
@@ -29,6 +29,14 @@ const update = async (req, res) => {
   if (!updateBook) return res.status(404).json({ message: 'Book not found' });
 
   res.status(201).json({ message: 'Book updated' });
+};
+
+const remove = async (req, res) => {
+  const { id } = req.params;
+  const removed = await BookService.remove(id);
+
+  if (!removed) return res.status(404).json({ message: 'Book not found' });
+  res.status(200).json({ message: 'Book removed' });
 }
 
 module.exports = {
@@ -36,4 +44,5 @@ module.exports = {
   getById,
   create,
   update,
-}
+  remove,
+};
