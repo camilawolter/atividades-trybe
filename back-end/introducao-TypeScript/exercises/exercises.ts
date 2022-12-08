@@ -29,3 +29,18 @@ export function triangleCheck(
   const checkSideC = (sideA - sideB) < sideC && sideC < (sideA+ sideB);
    return checkSideA && checkSideB && checkSideC
 }
+
+// Área de um losango
+export function getRhombusArea(D: number, d: number): number {
+  return (d * D) / 2;
+}
+
+// Área de um trapézio
+export function getTrapezoidArea(B: number, b: number, h: number): number {
+  return ((B + b) * h) / 2;
+}
+
+// Área de circulo
+export function getCircleArea(radius:number): number {
+  return Math.PI * radius ** 2;
+}

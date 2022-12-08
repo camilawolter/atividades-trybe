@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.triangleCheck = exports.getPolygonPerimeter = exports.getTriangleArea = exports.getRectangleArea = exports.getSquareArea = void 0;
+exports.getCircleArea = exports.getTrapezoidArea = exports.getRhombusArea = exports.triangleCheck = exports.getPolygonPerimeter = exports.getTriangleArea = exports.getRectangleArea = exports.getSquareArea = void 0;
 // Área de um quadrado
 function getSquareArea(side) {
     return side ** 2;
@@ -29,3 +29,18 @@ function triangleCheck(sideA, sideB, sideC) {
     return checkSideA && checkSideB && checkSideC;
 }
 exports.triangleCheck = triangleCheck;
+// Área de um losango
+function getRhombusArea(D, d) {
+    return (d * D) / 2;
+}
+exports.getRhombusArea = getRhombusArea;
+// Área de um trapézio
+function getTrapezoidArea(B, b, h) {
+    return ((B + b) * h) / 2;
+}
+exports.getTrapezoidArea = getTrapezoidArea;
+// Área de circulo
+function getCircleArea(radius) {
+    return Math.PI * radius ** 2;
+}
+exports.getCircleArea = getCircleArea;
