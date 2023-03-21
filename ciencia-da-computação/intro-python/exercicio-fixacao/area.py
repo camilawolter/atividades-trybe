@@ -16,6 +16,7 @@ def circle(radius):
     return PI * radius * radius
 
 
-print("Área do quadrado:", square(10))
-print("Área do quadrado:", rectangle(2, 2))
-print("Área do quadrado:", circle(3))
+if __name__ == "__main__":
+    print("Área do quadrado:", square(10))
+    print("Área do quadrado:", rectangle(2, 2))
+    print("Área do quadrado:", circle(3))
