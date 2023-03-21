@@ -1,1 +1,0 @@
-camila = 'pessoa estudante'
