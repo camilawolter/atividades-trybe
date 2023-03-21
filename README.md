@@ -135,7 +135,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [X] 18-1: _Projeto - App de Receitas_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end ✅
 
 ##### Bloco 19:Docker: Utilizando Containers
 
@@ -170,19 +170,19 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 23: Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] 23-1: _Arquitetura de Software - Camada de Model_
-- [ ] 23-2: _Arquitetura de Software - Camada de Controller e Service_
-- [ ] 23-3: _Arquitetura de Software - Rest e Restful_
-- [ ] 23-4: _ Arquitetura de Software - Testando as Camadas_
-- [ ] 23-5: _[Projeto - Store Manager]()_
+- [X] 23-1: _Arquitetura de Software - Camada de Model_
+- [X] 23-2: _Arquitetura de Software - Camada de Controller e Service_
+- [X] 23-3: _Arquitetura de Software - Rest e Restful_
+- [X] 23-4: _ Arquitetura de Software - Testando as Camadas_
+- [X] 23-5: _[Projeto - Store Manager]()_
 
 ##### Bloco 24: Node.js - ORM e Autenticação
 
-- [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM - Associations_
-- [ ] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _Testando APIs com Testes de Integração_
-- [ ] 24-5: _[Projeto - API de Blogs]()_
+- [X] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [X] 24-2: _ORM - Associations_
+- [X] 24-3: _JWT - (JSON Web Token)_
+- [X] 24-4: _Testando APIs com Testes de Integração_
+- [X] 24-5: _[Projeto - API de Blogs]()_
 
 ##### Bloco 25: Deployment
 
@@ -192,42 +192,42 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Introdução - TypeScript_
-- [ ] 26-2: _Tipagem Estática e Generics_
-- [ ] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith]()_
+- [X] 26-1: _Introdução - TypeScript_
+- [X] 26-2: _Tipagem Estática e Generics_
+- [X] 26-3: _Express com TypeScript_
+- [X] 26-4: _[Projeto - Trybe Smith]()_
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _Introdução à Orientação a Objetos_
-- [ ] 27-2: _Herança e Interfaces_
-- [ ] 27-3: _Polimorfismo_
-- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+- [X] 27-1: _Introdução à Orientação a Objetos_
+- [X] 27-2: _Herança e Interfaces_
+- [X] 27-3: _Polimorfismo_
+- [X] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [X] 27-5: _SOLID - Princípios L e I_
+- [X] 27-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 28: Projeto 
 
-- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [X] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 ##### Bloco 29: Introdução ao MongoDB
 
-- [ ] 29-1: _Introdução - NoSQL e MongoDB_
-- [ ] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de consulta_
-- [ ] 29-4: _Updates Simples_
-- [ ] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
+- [X] 29-1: _Introdução - NoSQL e MongoDB_
+- [X] 29-2: _Filter Operators_
+- [X] 29-3: _Operadores de consulta_
+- [X] 29-4: _Updates Simples_
+- [X] 29-5: _Updates Complexos - Arrays_
+- [X] 29-6: _[Projeto - Commerce]()_
 
 ##### Bloco 30: MongoDB com Node.js e POO
 
-- [ ] 30-1: _MonhoDB e arquitetura MSC_
-- [ ] 30-2: _MongoDB e POO_
-- [ ] 30-3: _[Projeto - Car Shop]()_
+- [X] 30-1: _MonhoDB e arquitetura MSC_
+- [X] 30-2: _MongoDB e POO_
+- [X] 30-3: _[Projeto - Car Shop]()_
 
 ##### Bloco 31: Projeto
 
-- [ ] 31-1: _[Projeto - App de Delivery]()_
+- [X] 31-1: _[Projeto - App de Delivery]()_
 
 ##### Bloco 32: MasterClass - VPS, CI/CD
 
